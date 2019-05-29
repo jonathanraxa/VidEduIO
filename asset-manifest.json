@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/VidEduIO/static/css/main.0dd06d57.chunk.css",
+    "main.js": "/VidEduIO/static/js/main.39a328ee.chunk.js",
+    "main.js.map": "/VidEduIO/static/js/main.39a328ee.chunk.js.map",
+    "runtime~main.js": "/VidEduIO/static/js/runtime~main.9932d643.js",
+    "runtime~main.js.map": "/VidEduIO/static/js/runtime~main.9932d643.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/VidEduIO/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a21f78fa.chunk.js": "/VidEduIO/static/js/2.a21f78fa.chunk.js",
+    "static/js/2.a21f78fa.chunk.js.map": "/VidEduIO/static/js/2.a21f78fa.chunk.js.map",
+    "index.html": "/VidEduIO/index.html",
+    "precache-manifest.68de69b11be7dfbefcab8e770749c2e4.js": "/VidEduIO/precache-manifest.68de69b11be7dfbefcab8e770749c2e4.js",
+    "service-worker.js": "/VidEduIO/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/VidEduIO/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.0dd06d57.chunk.css.map": "/VidEduIO/static/css/main.0dd06d57.chunk.css.map"
+  }
+}
