@@ -4,13 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tinymce/tinymce-react": "^3.1.1",
-    "axios": "^0.18.0",
+    "@tinymce/tinymce-react": "^3.3.0",
+    "axios": "^0.18.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "react": "^16.8.6",
+    "react": "^16.9.0",
     "react-collapsible": "^2.6.0",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.9.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }
