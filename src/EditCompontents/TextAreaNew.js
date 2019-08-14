@@ -1,6 +1,7 @@
 import React from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 import 'bootstrap/dist/css/bootstrap.css';
+import { KEYCODE } from '../apis/keys';
 
 // each new component MUST return a value
 const TextAreaNew = ({ video }) => {
@@ -10,7 +11,7 @@ const TextAreaNew = ({ video }) => {
         return (
             <div className="textArea">
                 <Editor
-                    apiKey='8rp4hn347wu0de5xdlo0m1desvvv52rfiyifi05ish51xzdg'
+                    apiKey={KEYCODE.tinymce}
                     initialValue=""
                     selector="textarea"
                     theme="modern"

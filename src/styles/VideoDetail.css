@@ -18,3 +18,11 @@
   0%   {color: rgb(177, 177, 177);}
   100%   {color: rgb(250, 250, 250);}
 }
+
+.sds_padding_sp{
+  padding: 1em;
+}
+.see-more span.Collapsible__trigger{
+    color: red;
+    padding: 1em;
+}

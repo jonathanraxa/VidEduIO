@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/VideoDetail.css';
 
 const width100 = {
     width: '100%',
@@ -25,3 +26,5 @@ const VideoDetail = ({ video }) => {
 };
 
 export default VideoDetail;
+
+

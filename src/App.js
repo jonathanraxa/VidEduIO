@@ -1,11 +1,17 @@
 import React from 'react';
-import SearchBar from './SearchBar';
-import youtube from '../apis/youtube';
-import VideoList from './VideoList';
-import VideoDetail from './VideoDetail';
-import TextAreaNew from './TextAreaNew';
-import '../App.css';
+import Header from './Evergreen/Header';
+import Footer from './Evergreen/Footer';
+import PopupInfo from './Evergreen/PopupInfo';
+
+import SearchBar from './EditCompontents/SearchBar';
+import youtube from './apis/youtube';
+import VideoList from './VideoCompontents/VideoList';
+import VideoDetail from './VideoCompontents/VideoDetail';
+import TextAreaNew from './EditCompontents/TextAreaNew';
+import './styles/App.css';
+import 'jquery/dist/jquery.js';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/js/dist/modal.js';
 
 
 class App extends React.Component {
@@ -31,6 +37,7 @@ class App extends React.Component {
     })
   };
 
+  // sets the new video 
   onVideoSelect = video => {
     this.setState({ selectedVideo: video });
   }
@@ -38,22 +45,29 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
+        <Header />
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className="grid">
+
           <div className="row">
-            
             <div className="col-md-8">
               <VideoDetail video={this.state.selectedVideo} />
             </div>
             <div className="col-md-4">
               <TextAreaNew video={this.state.selectedVideo} />
             </div>
-
           </div>
+          
           <div className="row">
-              <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos} />
-            </div>
+            <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos} video={this.state.selectedVideo}/>
+          </div>
+
+          <div className="row">
+            <Footer />
+          </div>
         </div>
+       
+        <PopupInfo />
       </div>
     )
   }
